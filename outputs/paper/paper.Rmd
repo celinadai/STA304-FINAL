@@ -1,0 +1,74 @@
+---
+title: "Robbery in Toronto"
+subtitle: ""
+author: 
+  - Shengyi Dai
+thanks: "Code and data are available at: https://github.com/celinadai/STA304---FINAL"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+abstract: "This paper is about the robbery on December 2021, we are looking at the robbery in each region of Toronto. In order to prevent the crime happen in our world, analyze the data and the region where crime occur more frequently is a really important thing. (still need to add about the relationship and result about the data)
+  \\par
+ \\textbf {Keywords:} crime, robbery, toronto police, toronto residents"
+output:
+  bookdown::pdf_document2
+toc: FALSE
+bibliography: references.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+getwd()
+library(tidyverse)
+library(palmerpenguins)
+```
+
+# Introduction
+
+2021 had been a really tough year for people because of COVID-19. A lot of people are losing jobs or make less money. Crimes may be occur more frequently since people may feel harder in these days, robbery is one of the major crime in the world. Hence in this paper, we will be looking at the robbery data in Toronto from 2021 to analyze the frequency of the robbery happen. Hence we can provide advice to the police for where and when do they need to focus to prevent the crime of robbery to protect our community.
+
+This paper had analyzed the relationship between the crime and the region. The city we are mainly focusing on is Toronto. The whole analysis had been done using R studio [@citeR], which is a really great tool for analyzing and predicting data. It is important to analyze this for us to prevent crime and losing money from it. The way to find the data can be found in "README". 
+
+The data is from the Toronto police services which has a lot of open data about crimes, but this time we are just going to focus about the robbery. This paper is separated in few different parts. Firstly is the data part which introduced the information about data, and the characteristic and relationship between the data. The next part is the method and results part which introduced the method this paper will be using and the results I got from the method. The last part is the discussion which talks about the results I got and connect to the world.
+
+(still need to be add after doing data and method)
+
+# Data
+
+
+
+
+# Model
+
+
+
+# Results
+
+# Discussion
+
+## First discussion point
+
+
+
+## Second discussion point
+
+## Third discussion point
+
+## Weaknesses and next steps
+
+Weaknesses and next steps should also be included.
+
+\newpage
+
+\appendix
+
+# Appendix {-}
+
+
+# Additional details
+
+
+\newpage
+
+
+# References
+
+
